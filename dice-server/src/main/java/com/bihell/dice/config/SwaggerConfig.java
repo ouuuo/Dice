@@ -37,7 +37,7 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("Dice")
+                .title("Ouuuo")
                 .description("个人管理系统 API 1.0 操作文档")
                 //服务条款网址
                 .termsOfServiceUrl("https://github.com/bihell/Dice")

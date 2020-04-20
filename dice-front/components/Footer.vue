@@ -1,9 +1,5 @@
 <template>
   <div class="footer">
-    <p class="copyright">
-      © 2014 - present | Haseo Chen | Proudly powered by
-      <a href="https://github.com/bihell/Dice" target="_blank">Dice</a>
-    </p>
     <div v-highlight v-html="options.blog_footer" class="markdown-body"></div>
   </div>
 </template>

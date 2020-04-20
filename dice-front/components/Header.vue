@@ -4,21 +4,12 @@
       <nuxt-link class="logo" :to="'/'">
         <img src="/logo.png" width="26px" height="26px" />
         <span class="text-primary" style="margin-left: 10px">{{
-          options.blog_name || 'Dice'
+          options.blog_name || 'Ouuuo'
         }}</span>
       </nuxt-link>
       <ul class="tab link-list">
         <li v-for="(list, index) in links" :key="index" class="tab-item">
           <nuxt-link :to="{ path: list.path }" exact>{{ list.name }}</nuxt-link>
-        </li>
-        <li class="tab-item">
-          <a href="/feed.xml">RSS订阅</a>
-        </li>
-        <li class="tab-item">
-          <a href="https://bigdata.bihell.com">大数据&利器</a>
-        </li>
-        <li class="tab-item">
-          <a href="https://space.bilibili.com/88900889">B站Vlog</a>
         </li>
       </ul>
       <div class="header-menu">
